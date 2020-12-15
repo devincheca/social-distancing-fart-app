@@ -1,10 +1,11 @@
 import './App.css';
 import 'bulma/css/bulma.css';
+import { TimerPicker } from './components/components';
 
 function App() {
   return (
     <div className="">
-      <button className="button is-danger">Fart</button>
+      <TimerPicker />
     </div>
   );
 }
